@@ -1,0 +1,141 @@
+body{
+/*    background-color: aliceblue;*/
+    background-image: linear-gradient(#e0ffff,#111111);
+    overflow-x: hidden;
+}
+.firstsec{
+    border-bottom-color: black;
+    border-width: thick;
+    border-bottom-style: solid;
+    height: 30%;
+    background-image: linear-gradient(#38acec,#98afc7);
+        animation-name: firstsec;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.profileimag{
+    margin-bottom: -40%;
+    float: right;
+ width: 100px;
+    border-radius: 100%;
+         animation-name: imag;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+.name{
+    font-size: 60px;
+    font-style: oblique;
+    margin-left: 25%;
+    
+}
+.studi{
+    font-size: 50px;
+    font-style: italic;
+    color: darkslateblue;
+    margin-left: 25%;
+}
+.secondsec{
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    background-color: silver;
+/*    background-image: linear-gradient(#C3FDB8,#F87431)*/
+}
+.mylife{
+    margin-right:55%;
+    border-right-color: antiquewhite;
+    border-right-style: solid;
+    border-left-width: thick;
+/*    background-color: darkgray;*/
+/*    background-image: linear-gradient(#fcdfff,#737ca1);*/
+
+}
+h1{
+    color: darkred;
+    font-size: 40px;
+    border-bottom-color: darkblue;
+    border-bottom-style: dotted;
+    border-bottom-width: thick;
+}
+.haghilight{
+  font-size: 30px;  
+}
+.mydreams{
+    margin-top: -16.5%;
+    margin-left: 50%;
+    border-left-color: antiquewhite;
+    border-left-style: solid;
+    border-left-width: medium;
+    height: 30%;
+/*    background-color: darkgray;*/
+/*    background-image: linear-gradient(#ffff00,#c36241)*/
+}
+.achivments{
+/*    background-color: darkgray;*/
+/*    background-image: radial-gradient(#ffe87c,#e0ffff);*/
+    height: 30%;
+        width: 60%;
+    margin-bottom: 0%;
+}
+li{
+    font-size: 30px;
+}
+.content{
+    margin-top: -6%;
+    float: right;
+    width: 15%;
+    height: 15%;
+/*    background-color: darkgray;*/
+    background-color: darkblue;
+    border-radius: 100% 0% 0% 0%;
+}
+.talk{
+    font-size: 20px;
+    float: right;
+    margin-left: 45%
+        
+}
+.ptalk{
+    float: right;
+}
+.profileimag:hover{
+    width: 233px;
+}
+.content:hover{
+    width: 26%;
+    height: 26%;
+    margin-top: -10%;
+    animation-name: content;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    
+}
+.talk:hover{
+    font-size: 50px;
+}
+.ptalk:hover{
+    font-size: 40px;
+}
+/*
+@keyframes firstsec
+{
+25%{background-color: aquamarine}
+50%{background-color: burlywood}
+75%{background-color: darkred}
+100%{background-color: fuchsia}    
+}
+*/
+@keyframes imag{
+    25%{transform: rotate(-180deg)}
+    50%{transform: rotate(180deg)}
+    75%{transform: rotate(-360deg)};
+    100%{transform: rotate(360deg)}
+}
+/*
+@keyframes content
+{
+    {width: 26%;height: 26%;margin-top: -18%}
+}*/
